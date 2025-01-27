@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    line-height: 1.6;
+    color: #333; 
+    background-color: #f0f0f0;
+}
+
+.t2 {
+    background-color: #005b8c;
+    padding: 0.5em 1em;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+
+.t3 {
+    color: #333; 
+    font-weight: bold;
+}
+
+a {
+    color: #0078d4;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+    color: #005a9e;
+    text-decoration: underline;
+}
+
+input:focus,
+textarea:focus,
+button:focus,
+a:focus {
+    outline: 3px solid #FF9800; 
+    outline-offset: 2px;
+}
+
+#contenido {
+    background-color: #fff; 
+    padding: 1em;
+    margin: 0 auto 3em auto;
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.t1 {
+    margin-top: 0;
+}
+
+#pasos {
+    margin-bottom: 2em;
+}
+
+.obligatorio {
+    color: #e60000; 
+}
+
+.campo_form label {
+    padding-left: 1em;
+    padding-right: 1em;
+    display: block;
+    width: 10em;
+    text-align: right;
+    color: #333; 
+}
+
+#submit:focus {
+    outline: 2px solid #FF9800; 
+}
+
+#tabla_compra {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#tabla_compra td,
+#tabla_compra th {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+#tabla_compra th {
+    background-color: #0078d4;
+    color: white;
+}
+
+#tabla_compra tr:nth-child(even) {
+    background-color: #f9f9f9; 
+}
+
+#tabla_compra tr:hover {
+    background-color: #f1f1f1; 
+}
+
+#tabla_compra input[type="text"] {
+    width: 50px;
+    text-align: center;
+}
+
+#info_en {
+    font-size: 0.9em;
+    color: #555; 
+    margin-top: 1em;
+}
+
+#div_captcha {
+    margin: 2em 0;
+    text-align: center;
+}
+
+#div_captcha input {
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin-left: 10px;
+}
+
+#info_promociones {
+    margin-top: 1em;
+    padding: 0.5em;
+}
+
+#lista_promociones {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.grupo_check div {
+    margin-bottom: 1em;
+}
+
+.grupo_check label {
+    margin-left: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    font-size: 1em;
+    color: #777; 
+    background-color: #f0f0f0; 
+    padding: 1em;
+}
+
+button {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:focus {
+    outline: 3px solid #FF9800;
+}
+
+button:hover,
+button:focus {
+    background-color: #005a9e;
+}
